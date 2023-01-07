@@ -27,7 +27,7 @@ const= (/((i*a),i=1,sizek)/)!!!CONSTANTS==========================
 
 !ini=-10.44666776+const
 !print*,'const=',ini
-const = const + 1.5D0
+const = const 
 do k=1,sizek
 !==================================INITIAL CONDITIONS=======================
 ini(k)=const(k)-10.44666776
